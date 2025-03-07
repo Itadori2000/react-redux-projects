@@ -20,9 +20,9 @@ function App(){
 
     {/* <SimpleCRUD/> */}
     {/* <Clock/> */}
-    <Button text="Button" variant="danger"/>
-    <Button text="Delete" variant="primary" startIcon={<FontAwesomeIcon icon={faTrash} />} />
-    <Button text="Play" variant="secondary" endIcon={<FontAwesomeIcon icon={faPlay}/>}/>
+    <Button text="Button" btnStyle="danger"/>
+    <Button text="Delete" btnStyle="primary" startIcon={<FontAwesomeIcon icon={faTrash} />} />
+    <Button text="Play" btnStyle="secondary" endIcon={<FontAwesomeIcon icon={faPlay}/>}/>
     <BackgroundChanger/>
     </>
     
